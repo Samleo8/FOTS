@@ -44,7 +44,7 @@ if __name__ == '__main__':
     logger = logging.getLogger()
 
     parser = argparse.ArgumentParser(description='Model eval')
-    parser.add_argument('-m', '--model', default="save_model/model_5.pth", type=str,
+    parser.add_argument('-m', '--model', default="models/retrained_model.pth.tar", type=str,
                         help='path to model')
     parser.add_argument('-o', '--output_dir', default="test_result/", type=str,
                         help='output dir for drawn images')
