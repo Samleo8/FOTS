@@ -28,10 +28,16 @@ python main_train.py
 
 ```
 
+### Pre-trained model
+Download from here: https://drive.google.com/uc?export=download&confirm=qiR5&id=1oYfxKUA7YKZCnSgTN3Gk-u0N7uBPbJbT
+**Disclaimer: This is not my model.**
+
 ### Test
 run
 ```
 python eval.py
+	[-m|--model <path_to_model (default: models/retrained_model.pth.tar)>]
+	[-i|--input_dir <input_directory (default: testdata)>] [-o|--output_dir <output_directory (default: testdata/results)>]
 ```
 
 a text file will be then written to the output path.
